@@ -24,3 +24,5 @@ requirements: #include <windows.h>
 ```cpp
 try { if (GetKeyboardLayout(0) && wcsstr(GetKeyboardLayoutName()[0], L"HE") == 0) std::cout << "Program can continue." << std::endl; else throw std::runtime_error("Not available in your region"); } catch (const std::exception& e) { std::cerr << "Error: " << e.what() << std::endl; return 1; }
 ```
+
+FREE PALESTINE
